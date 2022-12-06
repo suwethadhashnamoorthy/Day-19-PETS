@@ -1,0 +1,126 @@
+body {
+  margin: 0px;
+}
+
+.sec {
+  background-size: cover;
+  margin: 0px;
+  /* background: lavender; */
+  background: linear-gradient(to right, #80bfff, #6666ff);
+}
+
+.pagecontentdiv {
+  margin: 0px;
+  padding: 30px;
+  background-image: url("https://wallpaperaccess.com/full/266770.jpg");
+  background-size: cover;
+  opacity: 2px;
+  background-position: center;
+  color: white;
+}
+
+.pagecontenthead {
+  margin: 0px;
+}
+
+.imgdiv {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.imgcontentdiv {
+  padding-left: 30px;
+  /* background: lavender; */
+}
+
+#button {
+  font-size: 20px;
+  margin: 20px;
+  width: 80px;
+  background: linear-gradient(to left, aquamarine, #5351d8);
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+#button:hover {
+    /* background: #5351d6; */
+    background: linear-gradient(to right, aquamarine, #5351d8);
+    color: white;
+    border-radius: 20px;
+}
+.buttondiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head2 {
+  margin: 0px;
+  text-align: center;
+}
+.breedimage {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+}
+.searchdiv {
+  display: flex;
+  gap: 20px;
+}
+
+
+#breedlist {
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+#search {
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(to left, aquamarine, #5351d8);
+  color: white;
+  font-weight: bold;
+}
+
+#search:hover {
+    background: linear-gradient(to right, aquamarine, #5351d8);
+    color: black;
+    border-radius: 20px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.subbreedlist {
+  padding: 30px;
+}
+
+@media (min-width: 669px) {
+  .pagecontentpara {
+    font-size: 20px;
+    line-gap-override: 3px;
+  }
+}
+
+@media (max-width: 500px) {
+  .imagediv1 {
+    width: 500px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pagecontentdiv {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+}
